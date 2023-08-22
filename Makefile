@@ -41,4 +41,4 @@ ci-scheduled:
 .PHONY: ci_push
 ci_push::
 	$(MAKE) ensure
-	./scripts/push.sh
+	./scripts/ci/push.sh
