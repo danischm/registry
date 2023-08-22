@@ -19,7 +19,7 @@ case ${PULUMI_ACTION} in
         pulumi -C infrastructure preview
         ;;
     update)
-        pulumi -C infrastructure up --yes
+        pulumi -C infrastructure preview
         ;;
     *)
         echo "Unknown action '${PULUMI_ACTION}'"
